@@ -154,10 +154,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         return {
           ...state,
           players: updatedPlayers,
+          placementResult: "correct",
           phase: "feedback",
         };
       } else {
-        return { ...state, phase: "feedback" };
+        return { ...state, placementResult: "wrong", phase: "feedback" };
       }
     }
 
