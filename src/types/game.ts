@@ -3,6 +3,7 @@ export interface Song {
   title: string;
   artist: string;
   year: number;
+  deezerId?: number;
   previewUrl: string;
   albumArtUrl: string;
 }
@@ -18,8 +19,10 @@ export type GamePhase =
   | "lobby"
   | "playing"
   | "revealing"
+  | "wrong_feedback"
   | "stealing"
   | "feedback"
+  | "sudden_death"
   | "finished";
 
 export interface GameState {
@@ -32,15 +35,18 @@ export interface GameState {
   placementResult: "correct" | "wrong" | null;
   stealingPlayerIndex: number | null;
   isRevealed: boolean;
+  isSuddenDeath: boolean;
+  eliminatedPlayerIds: string[];
 }
 
 export type GameAction =
   | { type: "ADD_PLAYER"; name: string }
   | { type: "REMOVE_PLAYER"; playerId: string }
   | { type: "SET_WIN_CONDITION"; count: number }
-  | { type: "START_GAME" }
+  | { type: "START_GAME"; deck: Song[] }
   | { type: "PLACE_CARD"; insertIndex: number }
   | { type: "REVEAL_CARD" }
+  | { type: "PROCEED_TO_STEAL" }
   | { type: "STEAL_CARD"; insertIndex: number }
   | { type: "DECLINE_STEAL" }
   | { type: "NEXT_TURN" }

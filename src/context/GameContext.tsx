@@ -7,10 +7,9 @@ import {
   Dispatch,
 } from "react";
 import { GameState, GameAction, Player, Song } from "@/types/game";
-import { getShuffledDeck } from "@/lib/songs";
+import { shuffle } from "@/lib/utils";
 import {
   validatePlacement,
-  checkWinCondition,
   insertIntoTimeline,
 } from "@/lib/game-logic";
 import { generateId } from "@/lib/utils";
@@ -30,7 +29,23 @@ const initialState: GameState = {
   placementResult: null,
   stealingPlayerIndex: null,
   isRevealed: false,
+  isSuddenDeath: false,
+  eliminatedPlayerIds: [],
 };
+
+function getNextActivePlayer(
+  currentIndex: number,
+  players: Player[],
+  eliminatedIds: string[]
+): number {
+  let next = (currentIndex + 1) % players.length;
+  let checked = 0;
+  while (eliminatedIds.includes(players[next].id) && checked < players.length) {
+    next = (next + 1) % players.length;
+    checked++;
+  }
+  return next;
+}
 
 function gameReducer(state: GameState, action: GameAction): GameState {
   switch (action.type) {
@@ -58,7 +73,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case "START_GAME": {
       if (state.players.length < 2) return state;
-      const deck = getShuffledDeck();
+      const deck = shuffle([...action.deck]);
 
       // Deal one card to each player
       const players = state.players.map((p, i) => ({
@@ -70,16 +85,28 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const currentSong = remaining[0];
       const deckAfterDraw = remaining.slice(1);
 
+      // First player: whoever has the oldest starting card
+      let oldestIndex = 0;
+      let oldestYear = players[0].timeline[0].year;
+      for (let i = 1; i < players.length; i++) {
+        if (players[i].timeline[0].year < oldestYear) {
+          oldestYear = players[i].timeline[0].year;
+          oldestIndex = i;
+        }
+      }
+
       return {
         ...state,
         phase: "playing",
         players,
         deck: deckAfterDraw,
         currentSong,
-        currentPlayerIndex: 0,
+        currentPlayerIndex: oldestIndex,
         placementResult: null,
         stealingPlayerIndex: null,
         isRevealed: false,
+        isSuddenDeath: false,
+        eliminatedPlayerIds: [],
       };
     }
 
@@ -113,13 +140,16 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           phase: "feedback",
         };
       } else {
-        const nextPlayerIdx =
-          (state.currentPlayerIndex + 1) % state.players.length;
+        const nextPlayerIdx = getNextActivePlayer(
+          state.currentPlayerIndex,
+          state.players,
+          state.eliminatedPlayerIds
+        );
         return {
           ...state,
           placementResult: "wrong",
-          isRevealed: true,
-          phase: "stealing",
+          isRevealed: false,
+          phase: "wrong_feedback",
           stealingPlayerIndex: nextPlayerIdx,
         };
       }
@@ -127,6 +157,10 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case "REVEAL_CARD": {
       return { ...state, isRevealed: true };
+    }
+
+    case "PROCEED_TO_STEAL": {
+      return { ...state, phase: "stealing" };
     }
 
     case "STEAL_CARD": {
@@ -155,29 +189,89 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           ...state,
           players: updatedPlayers,
           placementResult: "correct",
+          isRevealed: true,
           phase: "feedback",
         };
       } else {
-        return { ...state, placementResult: "wrong", phase: "feedback" };
+        return { ...state, placementResult: "wrong", isRevealed: true, phase: "feedback" };
       }
     }
 
     case "DECLINE_STEAL": {
-      return { ...state, phase: "feedback" };
+      return { ...state, isRevealed: true, phase: "feedback" };
     }
 
     case "NEXT_TURN": {
-      const winner = checkWinCondition(state.players, state.winCondition);
-      if (winner) {
-        return { ...state, phase: "finished" };
+      // Check if any player has reached the win condition
+      const sorted = [...state.players]
+        .filter((p) => !state.eliminatedPlayerIds.includes(p.id))
+        .sort((a, b) => b.timeline.length - a.timeline.length);
+
+      const leader = sorted[0];
+      const runnerUp = sorted[1];
+
+      if (leader && leader.timeline.length >= state.winCondition) {
+        const gap = leader.timeline.length - (runnerUp?.timeline.length ?? 0);
+
+        if (gap >= 2) {
+          // Clear win — leader is 2+ ahead
+          return { ...state, phase: "finished" };
+        }
+
+        // Gap is 0 or 1 — enter or continue sudden death
+        if (!state.isSuddenDeath) {
+          // Enter sudden death: eliminate everyone except leader and tied-for-second players
+          const secondScore = runnerUp.timeline.length;
+          const contenderIds = sorted
+            .filter(
+              (p) =>
+                p.timeline.length === leader.timeline.length ||
+                p.timeline.length === secondScore
+            )
+            .map((p) => p.id);
+
+          const eliminated = state.players
+            .filter((p) => !contenderIds.includes(p.id))
+            .map((p) => p.id);
+
+          const nextIndex = getNextActivePlayer(
+            state.currentPlayerIndex,
+            state.players,
+            eliminated
+          );
+
+          if (state.deck.length === 0) {
+            return { ...state, phase: "finished" };
+          }
+
+          return {
+            ...state,
+            phase: "playing",
+            isSuddenDeath: true,
+            eliminatedPlayerIds: eliminated,
+            currentPlayerIndex: nextIndex,
+            currentSong: state.deck[0],
+            deck: state.deck.slice(1),
+            placementResult: null,
+            stealingPlayerIndex: null,
+            isRevealed: false,
+          };
+        }
+
+        // Already in sudden death — check if leader now has 2+ gap
+        // (handled above). If not, continue playing.
       }
 
+      // Deck exhausted
       if (state.deck.length === 0) {
         return { ...state, phase: "finished" };
       }
 
-      const nextIndex =
-        (state.currentPlayerIndex + 1) % state.players.length;
+      const nextIndex = getNextActivePlayer(
+        state.currentPlayerIndex,
+        state.players,
+        state.eliminatedPlayerIds
+      );
       const nextSong = state.deck[0];
       const remainingDeck = state.deck.slice(1);
 

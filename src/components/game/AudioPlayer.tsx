@@ -2,6 +2,7 @@
 
 interface AudioPlayerProps {
   isPlaying: boolean;
+  isLoading?: boolean;
   progress: number;
   onToggle: () => void;
   disabled?: boolean;
@@ -9,6 +10,7 @@ interface AudioPlayerProps {
 
 export function AudioPlayer({
   isPlaying,
+  isLoading,
   progress,
   onToggle,
   disabled,
@@ -17,12 +19,18 @@ export function AudioPlayer({
     <div className="flex flex-col items-center gap-3">
       <button
         onClick={onToggle}
-        disabled={disabled}
+        disabled={disabled || isLoading}
         className="w-16 h-16 rounded-full bg-white/10 border-2 border-violet-400
           flex items-center justify-center text-2xl hover:bg-violet-600/30
           transition-all active:scale-95 disabled:opacity-30 cursor-pointer"
       >
-        {isPlaying ? "⏸" : "▶️"}
+        {isLoading ? (
+          <span className="animate-spin text-xl">⏳</span>
+        ) : isPlaying ? (
+          "⏸"
+        ) : (
+          "▶️"
+        )}
       </button>
       <div className="w-48 h-1.5 bg-white/10 rounded-full overflow-hidden">
         <div

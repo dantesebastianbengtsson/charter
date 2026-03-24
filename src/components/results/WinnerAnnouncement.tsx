@@ -16,9 +16,12 @@ export function WinnerAnnouncement({
 }: WinnerAnnouncementProps) {
   const fire = useConfetti();
 
-  const winner =
-    players.find((p) => p.timeline.length >= winCondition) ??
-    [...players].sort((a, b) => b.timeline.length - a.timeline.length)[0];
+  const sorted = [...players].sort(
+    (a, b) => b.timeline.length - a.timeline.length
+  );
+  const topScore = sorted[0].timeline.length;
+  const winners = sorted.filter((p) => p.timeline.length === topScore);
+  const isTie = winners.length > 1;
 
   useEffect(() => {
     fire();
@@ -31,11 +34,24 @@ export function WinnerAnnouncement({
       transition={{ type: "spring", damping: 12 }}
       className="text-center py-8"
     >
-      <p className="text-6xl mb-4">🏆</p>
-      <h1 className="text-4xl font-black text-white mb-2">{winner.name} Wins!</h1>
-      <p className="text-white/50">
-        with {winner.timeline.length} songs in their timeline
-      </p>
+      <p className="text-6xl mb-4">{isTie ? "🤝" : "🏆"}</p>
+      {isTie ? (
+        <>
+          <h1 className="text-4xl font-black text-white mb-2">It&apos;s a Tie!</h1>
+          <p className="text-white/50">
+            {winners.map((w) => w.name).join(" & ")} tied with {topScore} songs
+          </p>
+        </>
+      ) : (
+        <>
+          <h1 className="text-4xl font-black text-white mb-2">
+            {winners[0].name} Wins!
+          </h1>
+          <p className="text-white/50">
+            with {topScore} songs in their timeline
+          </p>
+        </>
+      )}
     </motion.div>
   );
 }

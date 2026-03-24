@@ -7,13 +7,15 @@ import { GameSettings } from "@/components/lobby/GameSettings";
 import { Button } from "@/components/ui/Button";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import { fetchSongs } from "@/lib/songs";
 
 export default function LobbyPage() {
   const { state, dispatch } = useGame();
   const router = useRouter();
 
-  const handleStart = () => {
-    dispatch({ type: "START_GAME" });
+  const handleStart = async () => {
+    const songs = await fetchSongs();
+    dispatch({ type: "START_GAME", deck: songs });
     router.push("/game");
   };
 

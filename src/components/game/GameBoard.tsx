@@ -2,6 +2,7 @@
 
 import { useGame } from "@/hooks/useGame";
 import { useAudio } from "@/hooks/useAudio";
+import { motion } from "framer-motion";
 import { TurnBanner } from "./TurnBanner";
 import { ScoreBar } from "./ScoreBar";
 import { MysteryCard } from "./MysteryCard";
@@ -33,29 +34,31 @@ export function GameBoard() {
     dispatch({ type: "NEXT_TURN" });
   };
 
-  const hasPreview = !!state.currentSong?.previewUrl;
+  const hasPreview = !!state.currentSong?.deezerId;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 flex flex-col">
       {/* Header */}
       <div className="px-4 pt-6 pb-4 space-y-3">
-        <TurnBanner player={currentPlayer} cardsLeft={state.deck.length} />
+        <TurnBanner player={currentPlayer} cardsLeft={state.deck.length} isSuddenDeath={state.isSuddenDeath} />
         <ScoreBar
           players={state.players}
           currentIndex={state.currentPlayerIndex}
           winCondition={state.winCondition}
+          eliminatedPlayerIds={state.eliminatedPlayerIds}
         />
       </div>
 
       {/* Mystery Card + Audio */}
       <div className="flex-1 flex flex-col items-center justify-center gap-4 px-4">
-        <MysteryCard song={state.currentSong} isRevealed={state.isRevealed} />
-        {state.phase === "playing" && (
+        <MysteryCard key={state.currentSong?.deezerId ?? state.currentPlayerIndex} song={state.currentSong} isRevealed={state.isRevealed} />
+        {(state.phase === "playing" || state.phase === "wrong_feedback" || state.phase === "stealing") && (
           <AudioPlayer
             isPlaying={audio.isPlaying}
+            isLoading={audio.isLoading}
             progress={audio.progress}
             onToggle={() =>
-              state.currentSong && audio.toggle(state.currentSong.previewUrl)
+              state.currentSong?.deezerId && audio.toggleDeezer(state.currentSong.deezerId)
             }
             disabled={!hasPreview}
           />
@@ -82,10 +85,37 @@ export function GameBoard() {
           </>
         )}
 
-        {state.phase === "stealing" && stealingPlayer && state.currentSong && (
+        {state.phase === "wrong_feedback" && stealingPlayer && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex flex-col items-center gap-4 py-4"
+          >
+            <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border bg-red-500/20 border-red-500/40 text-red-300">
+              <span className="text-lg">❌</span>
+              <span className="font-bold text-lg">Wrong!</span>
+            </div>
+            <div className="flex items-center gap-2 text-white/70 text-sm">
+              <span
+                className="w-3 h-3 rounded-full inline-block"
+                style={{ backgroundColor: stealingPlayer.color }}
+              />
+              <span>
+                <strong className="text-white">{stealingPlayer.name}</strong> gets a chance to steal
+              </span>
+            </div>
+            <button
+              onClick={() => dispatch({ type: "PROCEED_TO_STEAL" })}
+              className="mt-2 px-6 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-medium hover:bg-white/20 transition-colors cursor-pointer"
+            >
+              Continue →
+            </button>
+          </motion.div>
+        )}
+
+        {state.phase === "stealing" && stealingPlayer && (
           <StealPrompt
             stealer={stealingPlayer}
-            song={state.currentSong}
             onSteal={handleSteal}
             onDecline={() => dispatch({ type: "DECLINE_STEAL" })}
           />

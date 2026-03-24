@@ -1,19 +1,17 @@
 "use client";
 
-import { Player, Song } from "@/types/game";
+import { Player } from "@/types/game";
 import { Timeline } from "./Timeline";
 import { Button } from "@/components/ui/Button";
 
 interface StealPromptProps {
   stealer: Player;
-  song: Song;
   onSteal: (insertIndex: number) => void;
   onDecline: () => void;
 }
 
 export function StealPrompt({
   stealer,
-  song,
   onSteal,
   onDecline,
 }: StealPromptProps) {
@@ -30,7 +28,7 @@ export function StealPrompt({
           </h3>
         </div>
         <p className="text-white/50 text-sm">
-          Place &quot;{song.title}&quot; ({song.year}) on your timeline, or pass
+          Place this song on your timeline, or pass
         </p>
       </div>
 

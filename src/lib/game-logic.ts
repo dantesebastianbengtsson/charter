@@ -7,6 +7,11 @@ export function validatePlacement(
 ): boolean {
   const before = timeline[insertIndex - 1];
   const after = timeline[insertIndex];
+
+  // Same-year adjacency: placing next to a card with the same year is always valid
+  if (before && before.year === song.year) return true;
+  if (after && after.year === song.year) return true;
+
   const fitsBefore = !before || before.year <= song.year;
   const fitsAfter = !after || song.year <= after.year;
   return fitsBefore && fitsAfter;

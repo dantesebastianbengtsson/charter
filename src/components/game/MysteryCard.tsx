@@ -12,6 +12,7 @@ export function MysteryCard({ song, isRevealed }: MysteryCardProps) {
   return (
     <div className="perspective-[1000px] w-44 h-60 mx-auto">
       <motion.div
+        initial={{ rotateY: 0 }}
         animate={{ rotateY: isRevealed ? 180 : 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
         className="relative w-full h-full"
@@ -39,8 +40,12 @@ export function MysteryCard({ song, isRevealed }: MysteryCardProps) {
         >
           {song && (
             <>
-              <div className="w-20 h-20 rounded-lg bg-white/10 flex items-center justify-center mb-3">
-                <span className="text-4xl">🎵</span>
+              <div className="w-20 h-20 rounded-lg bg-white/10 flex items-center justify-center mb-3 overflow-hidden">
+                {song.albumArtUrl ? (
+                  <img src={song.albumArtUrl} alt="" className="w-full h-full object-cover" />
+                ) : (
+                  <span className="text-4xl">🎵</span>
+                )}
               </div>
               <p className="text-white font-bold text-base leading-tight">
                 {song.title}

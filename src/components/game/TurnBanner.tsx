@@ -6,9 +6,10 @@ import { motion, AnimatePresence } from "framer-motion";
 interface TurnBannerProps {
   player: Player;
   cardsLeft: number;
+  isSuddenDeath?: boolean;
 }
 
-export function TurnBanner({ player, cardsLeft }: TurnBannerProps) {
+export function TurnBanner({ player, cardsLeft, isSuddenDeath }: TurnBannerProps) {
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -18,6 +19,15 @@ export function TurnBanner({ player, cardsLeft }: TurnBannerProps) {
         exit={{ y: 30, opacity: 0 }}
         className="text-center"
       >
+        {isSuddenDeath && (
+          <motion.p
+            animate={{ opacity: [0.6, 1, 0.6] }}
+            transition={{ repeat: Infinity, duration: 1.5 }}
+            className="text-red-400 font-bold text-sm tracking-widest uppercase mb-1"
+          >
+            Sudden Death
+          </motion.p>
+        )}
         <div className="flex items-center justify-center gap-2 mb-1">
           <span
             className="w-3 h-3 rounded-full"

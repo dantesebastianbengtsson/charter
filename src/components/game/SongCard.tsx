@@ -19,11 +19,19 @@ export function SongCard({ song, compact }: SongCardProps) {
       }`}
     >
       <div
-        className={`bg-gradient-to-br from-violet-600/40 to-fuchsia-600/40 flex items-center justify-center ${
+        className={`bg-gradient-to-br from-violet-600/40 to-fuchsia-600/40 flex items-center justify-center relative overflow-hidden ${
           compact ? "h-24" : "h-32"
         }`}
       >
-        <span className="text-3xl">🎵</span>
+        {song.albumArtUrl ? (
+          <img
+            src={song.albumArtUrl}
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        ) : (
+          <span className="text-3xl">🎵</span>
+        )}
       </div>
       <div className={`p-2 ${compact ? "space-y-0" : "space-y-1"}`}>
         <p

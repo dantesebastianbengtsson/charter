@@ -1,102 +1,902 @@
 [
-  {"id": "s001", "title": "Johnny B. Goode", "artist": "Chuck Berry", "year": 1958, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s002", "title": "Hound Dog", "artist": "Elvis Presley", "year": 1956, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s003", "title": "What a Wonderful World", "artist": "Louis Armstrong", "year": 1967, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s004", "title": "Respect", "artist": "Aretha Franklin", "year": 1967, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s005", "title": "Hey Jude", "artist": "The Beatles", "year": 1968, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s006", "title": "Let It Be", "artist": "The Beatles", "year": 1970, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s007", "title": "Imagine", "artist": "John Lennon", "year": 1971, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s008", "title": "Stairway to Heaven", "artist": "Led Zeppelin", "year": 1971, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s009", "title": "Bohemian Rhapsody", "artist": "Queen", "year": 1975, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s010", "title": "Hotel California", "artist": "Eagles", "year": 1977, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s011", "title": "Stayin' Alive", "artist": "Bee Gees", "year": 1977, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s012", "title": "Don't Stop Me Now", "artist": "Queen", "year": 1978, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s013", "title": "Another One Bites the Dust", "artist": "Queen", "year": 1980, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s014", "title": "Back in Black", "artist": "AC/DC", "year": 1980, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s015", "title": "Every Breath You Take", "artist": "The Police", "year": 1983, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s016", "title": "Billie Jean", "artist": "Michael Jackson", "year": 1983, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s017", "title": "Thriller", "artist": "Michael Jackson", "year": 1982, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s018", "title": "Sweet Child O' Mine", "artist": "Guns N' Roses", "year": 1987, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s019", "title": "Like a Prayer", "artist": "Madonna", "year": 1989, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s020", "title": "Under the Bridge", "artist": "Red Hot Chili Peppers", "year": 1992, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s021", "title": "Smells Like Teen Spirit", "artist": "Nirvana", "year": 1991, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s022", "title": "Wonderwall", "artist": "Oasis", "year": 1995, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s023", "title": "Killing Me Softly", "artist": "Fugees", "year": 1996, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s024", "title": "No Diggity", "artist": "Blackstreet", "year": 1996, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s025", "title": "Bitter Sweet Symphony", "artist": "The Verve", "year": 1997, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s026", "title": "...Baby One More Time", "artist": "Britney Spears", "year": 1998, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s027", "title": "Livin' la Vida Loca", "artist": "Ricky Martin", "year": 1999, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s028", "title": "Stan", "artist": "Eminem", "year": 2000, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s029", "title": "In da Club", "artist": "50 Cent", "year": 2003, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s030", "title": "Hey Ya!", "artist": "OutKast", "year": 2003, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s031", "title": "Crazy in Love", "artist": "Beyoncé", "year": 2003, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s032", "title": "Mr. Brightside", "artist": "The Killers", "year": 2004, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s033", "title": "Since U Been Gone", "artist": "Kelly Clarkson", "year": 2004, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s034", "title": "Gold Digger", "artist": "Kanye West", "year": 2005, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s035", "title": "Crazy", "artist": "Gnarls Barkley", "year": 2006, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s036", "title": "Umbrella", "artist": "Rihanna", "year": 2007, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s037", "title": "Poker Face", "artist": "Lady Gaga", "year": 2008, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s038", "title": "Single Ladies", "artist": "Beyoncé", "year": 2008, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s039", "title": "Somebody That I Used to Know", "artist": "Gotye", "year": 2011, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s040", "title": "Rolling in the Deep", "artist": "Adele", "year": 2010, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s041", "title": "Call Me Maybe", "artist": "Carly Rae Jepsen", "year": 2012, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s042", "title": "Get Lucky", "artist": "Daft Punk", "year": 2013, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s043", "title": "Royals", "artist": "Lorde", "year": 2013, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s044", "title": "Happy", "artist": "Pharrell Williams", "year": 2013, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s045", "title": "Uptown Funk", "artist": "Bruno Mars", "year": 2014, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s046", "title": "Thinking Out Loud", "artist": "Ed Sheeran", "year": 2014, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s047", "title": "Hello", "artist": "Adele", "year": 2015, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s048", "title": "Hotline Bling", "artist": "Drake", "year": 2015, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s049", "title": "Closer", "artist": "The Chainsmokers", "year": 2016, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s050", "title": "Shape of You", "artist": "Ed Sheeran", "year": 2017, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s051", "title": "Despacito", "artist": "Luis Fonsi", "year": 2017, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s052", "title": "God's Plan", "artist": "Drake", "year": 2018, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s053", "title": "Old Town Road", "artist": "Lil Nas X", "year": 2019, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s054", "title": "Bad Guy", "artist": "Billie Eilish", "year": 2019, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s055", "title": "Blinding Lights", "artist": "The Weeknd", "year": 2020, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s056", "title": "Watermelon Sugar", "artist": "Harry Styles", "year": 2020, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s057", "title": "Levitating", "artist": "Dua Lipa", "year": 2020, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s058", "title": "Stay", "artist": "The Kid LAROI & Justin Bieber", "year": 2021, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s059", "title": "As It Was", "artist": "Harry Styles", "year": 2022, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s060", "title": "Anti-Hero", "artist": "Taylor Swift", "year": 2022, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s061", "title": "Flowers", "artist": "Miley Cyrus", "year": 2023, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s062", "title": "Cruel Summer", "artist": "Taylor Swift", "year": 2019, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s063", "title": "Paint It Black", "artist": "The Rolling Stones", "year": 1966, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s064", "title": "Superstition", "artist": "Stevie Wonder", "year": 1972, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s065", "title": "Dancing Queen", "artist": "ABBA", "year": 1976, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s066", "title": "September", "artist": "Earth, Wind & Fire", "year": 1978, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s067", "title": "Blue Monday", "artist": "New Order", "year": 1983, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s068", "title": "Take On Me", "artist": "a-ha", "year": 1985, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s069", "title": "Livin' on a Prayer", "artist": "Bon Jovi", "year": 1986, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s070", "title": "With or Without You", "artist": "U2", "year": 1987, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s071", "title": "Nothing Compares 2 U", "artist": "Sinéad O'Connor", "year": 1990, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s072", "title": "Creep", "artist": "Radiohead", "year": 1993, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s073", "title": "Waterfalls", "artist": "TLC", "year": 1995, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s074", "title": "Wannabe", "artist": "Spice Girls", "year": 1996, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s075", "title": "Iris", "artist": "Goo Goo Dolls", "year": 1998, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s076", "title": "Lose Yourself", "artist": "Eminem", "year": 2002, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s077", "title": "Seven Nation Army", "artist": "The White Stripes", "year": 2003, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s078", "title": "Toxic", "artist": "Britney Spears", "year": 2004, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s079", "title": "Hips Don't Lie", "artist": "Shakira", "year": 2006, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s080", "title": "Viva la Vida", "artist": "Coldplay", "year": 2008, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s081", "title": "Tik Tok", "artist": "Kesha", "year": 2009, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s082", "title": "Gangnam Style", "artist": "PSY", "year": 2012, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s083", "title": "Shake It Off", "artist": "Taylor Swift", "year": 2014, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s084", "title": "Sorry", "artist": "Justin Bieber", "year": 2015, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s085", "title": "Havana", "artist": "Camila Cabello", "year": 2017, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s086", "title": "Shallow", "artist": "Lady Gaga & Bradley Cooper", "year": 2018, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s087", "title": "Don't Start Now", "artist": "Dua Lipa", "year": 2019, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s088", "title": "drivers license", "artist": "Olivia Rodrigo", "year": 2021, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s089", "title": "Heat Waves", "artist": "Glass Animals", "year": 2020, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s090", "title": "Bohemian Like You", "artist": "The Dandy Warhols", "year": 2000, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s091", "title": "Survivor", "artist": "Destiny's Child", "year": 2001, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s092", "title": "Clocks", "artist": "Coldplay", "year": 2002, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s093", "title": "Paper Planes", "artist": "M.I.A.", "year": 2007, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s094", "title": "Pumped Up Kicks", "artist": "Foster the People", "year": 2011, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s095", "title": "We Found Love", "artist": "Rihanna", "year": 2011, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s096", "title": "Locked Out of Heaven", "artist": "Bruno Mars", "year": 2012, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s097", "title": "Counting Stars", "artist": "OneRepublic", "year": 2013, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s098", "title": "Lean On", "artist": "Major Lazer & DJ Snake", "year": 2015, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s099", "title": "Bohemian Rhapsody", "artist": "Queen", "year": 1975, "previewUrl": "", "albumArtUrl": ""},
-  {"id": "s100", "title": "Africa", "artist": "Toto", "year": 1982, "previewUrl": "", "albumArtUrl": ""}
+  {
+    "id": "s001",
+    "title": "Johnny B. Goode",
+    "artist": "Chuck Berry",
+    "year": 1958,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/e/1/0/be184607b501e72dbf682374652a2dc8.mp3?hdnea=exp=1774203580~acl=/api/1/1/b/e/1/0/be184607b501e72dbf682374652a2dc8.mp3*~data=user_id=0,application_id=42~hmac=384f8e76014350d333e41e1e4da91e375bab02b4e1821bff276e7529384482a2",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/eefa31f08fa80445a1e3a592b86e459a/250x250-000000-80-0-0.jpg",
+    "deezerId": 2689636
+  },
+  {
+    "id": "s002",
+    "title": "Hound Dog",
+    "artist": "Elvis Presley",
+    "year": 1956,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/5/0/90547b289e408877fd423d91e81cd00b.mp3?hdnea=exp=1774203580~acl=/api/1/1/9/0/5/0/90547b289e408877fd423d91e81cd00b.mp3*~data=user_id=0,application_id=42~hmac=80891c9e8557971dcd40ff07e24999030118c0ddc8714c57622a0c35276cf889",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/7923f08236596542918ed3b2247e4086/250x250-000000-80-0-0.jpg",
+    "deezerId": 17479889
+  },
+  {
+    "id": "s003",
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "year": 1967,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/7/2/0/b72d7b3f072e8cb491872119776b1769.mp3?hdnea=exp=1774203581~acl=/api/1/1/b/7/2/0/b72d7b3f072e8cb491872119776b1769.mp3*~data=user_id=0,application_id=42~hmac=2796f3eb55451984bdbd211c8e25116a02bd4555e1c9f150bcfe0efb57bef4fa",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/0edaef876d6d2a46d62a70f539851e7b/250x250-000000-80-0-0.jpg",
+    "deezerId": 928258712
+  },
+  {
+    "id": "s004",
+    "title": "Respect",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/3/0/c33e79affa5092d8e74aeed3388023bd.mp3?hdnea=exp=1774203581~acl=/api/1/1/c/3/3/0/c33e79affa5092d8e74aeed3388023bd.mp3*~data=user_id=0,application_id=42~hmac=ff2596dd66869d6ba9a95ca5118e69b9c51a0d39aa1e0758565b08821cf59901",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/9e9ba9115d0fb62879d1bb672ee67c07/250x250-000000-80-0-0.jpg",
+    "deezerId": 904732
+  },
+  {
+    "id": "s005",
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "year": 1968,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/b/0/8ab405ece8e5a5e8a3590a673cb18d9a.mp3?hdnea=exp=1774203581~acl=/api/1/1/8/a/b/0/8ab405ece8e5a5e8a3590a673cb18d9a.mp3*~data=user_id=0,application_id=42~hmac=5792a1ce6330612cd0291d6db4bd40a8219f0ba50488dc1ba6c84401ae4c7d4d",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/35621b78e11aeeca37f6fa275100482f/250x250-000000-80-0-0.jpg",
+    "deezerId": 126848613
+  },
+  {
+    "id": "s006",
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "year": 1970,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/5/0/af5b351b100513b1c167e5ed96b7ece3.mp3?hdnea=exp=1774203581~acl=/api/1/1/a/f/5/0/af5b351b100513b1c167e5ed96b7ece3.mp3*~data=user_id=0,application_id=42~hmac=efb3a9551f92693899b37f69a81052188c906d3b0683e9b6e1861ca59e351191",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fcf05300b7c17ec77a6d01028a4bef61/250x250-000000-80-0-0.jpg",
+    "deezerId": 116348656
+  },
+  {
+    "id": "s007",
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "year": 1971,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/9/0/fc9e6e7fd857d23c06e58da584e8e7d5.mp3?hdnea=exp=1774203582~acl=/api/1/1/f/c/9/0/fc9e6e7fd857d23c06e58da584e8e7d5.mp3*~data=user_id=0,application_id=42~hmac=e30bd0881f74f51dfc72c8dae9ea5b3b7cad8ffd6c00cd3e708eace9833cd4e1",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/2675a9277dfabb74c32b7a3b2c9b0170/250x250-000000-80-0-0.jpg",
+    "deezerId": 7193834
+  },
+  {
+    "id": "s008",
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/6/0/26692783366247f9e456227bc4eb9550.mp3?hdnea=exp=1774203582~acl=/api/1/1/2/6/6/0/26692783366247f9e456227bc4eb9550.mp3*~data=user_id=0,application_id=42~hmac=dc4f2beb7300292f0058068bd5678cdf335d999e54fe0eba7eb509e3c0be786d",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/460a0edd96f743be03b7405eac38c633/250x250-000000-80-0-0.jpg",
+    "deezerId": 88003859
+  },
+  {
+    "id": "s009",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "year": 1975,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/9/0/e395ad329758f01e5787f03e5286636f.mp3?hdnea=exp=1774203582~acl=/api/1/1/e/3/9/0/e395ad329758f01e5787f03e5286636f.mp3*~data=user_id=0,application_id=42~hmac=d4a4134743b2272ea0f3d4720be1ba9220ee2657a79a3f1f683cfd12f038c643",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/6706f1154083f461a348508c28030a30/250x250-000000-80-0-0.jpg",
+    "deezerId": 9997018
+  },
+  {
+    "id": "s010",
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "year": 1977,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/0/0/de0b52925103149e94a7123d0c0cb6c4.mp3?hdnea=exp=1774203582~acl=/api/1/1/d/e/0/0/de0b52925103149e94a7123d0c0cb6c4.mp3*~data=user_id=0,application_id=42~hmac=e69f76dc18254ed72babf9e9966c1702197041bb879648214f9a0cf680bf7192",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/7a6c7b49cfdaf4ee233f66c3070d2f40/250x250-000000-80-0-0.jpg",
+    "deezerId": 426703682
+  },
+  {
+    "id": "s011",
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/c/0/00cbbfd60789be479675f35af6277af0.mp3?hdnea=exp=1774203583~acl=/api/1/1/0/0/c/0/00cbbfd60789be479675f35af6277af0.mp3*~data=user_id=0,application_id=42~hmac=c054161dc6e91a41ff1033e741a6cc750a11be3c0e5108eb2f5d87f877291eba",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/abf272cffad9fb2b1552421ac6fac9c2/250x250-000000-80-0-0.jpg",
+    "deezerId": 139138743
+  },
+  {
+    "id": "s012",
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/2/4/0/424c67c4ef4d10490bdfad20a9f31c50.mp3?hdnea=exp=1774203583~acl=/api/1/1/4/2/4/0/424c67c4ef4d10490bdfad20a9f31c50.mp3*~data=user_id=0,application_id=42~hmac=7544bb95bf2f992417452dc7162a3b6f7d6ad1e64b685dd83b7010e930118729",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fb22a75aa1aafc992230abd0bd79faef/250x250-000000-80-0-0.jpg",
+    "deezerId": 12209331
+  },
+  {
+    "id": "s013",
+    "title": "Another One Bites the Dust",
+    "artist": "Queen",
+    "year": 1980,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/4/0/3e49a6a7252db65362160dfe7b379c67.mp3?hdnea=exp=1774203583~acl=/api/1/1/3/e/4/0/3e49a6a7252db65362160dfe7b379c67.mp3*~data=user_id=0,application_id=42~hmac=b4bb45fc001d76a46cd4a742d6dbaed806ad640e51efe70adf3c2892e3f8aa68",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/9a20f8b2547cbb74635539c219de3a84/250x250-000000-80-0-0.jpg",
+    "deezerId": 12206946
+  },
+  {
+    "id": "s014",
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "year": 1980,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/b/0/82be918b42c3d26093b20d01e97e4a03.mp3?hdnea=exp=1774203583~acl=/api/1/1/8/2/b/0/82be918b42c3d26093b20d01e97e4a03.mp3*~data=user_id=0,application_id=42~hmac=a0a442909c22a3894d6775c4175c5d8f2a24232bb30f6a27d7af2e0ecc90247e",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/41041b14873956eff0459c8ea2c296a8/250x250-000000-80-0-0.jpg",
+    "deezerId": 92720046
+  },
+  {
+    "id": "s015",
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "year": 1983,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/4/0/f64bec38146590bbfa345352446d5f52.mp3?hdnea=exp=1774203584~acl=/api/1/1/f/6/4/0/f64bec38146590bbfa345352446d5f52.mp3*~data=user_id=0,application_id=42~hmac=91aa41b5e60e2b89cbd2d1ad784055db45a13163e712fa5c8f8a895c905c29ea",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/316afdaed93c4a18cf730389648d03d6/250x250-000000-80-0-0.jpg",
+    "deezerId": 2525864
+  },
+  {
+    "id": "s016",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "year": 1983,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1774203584~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=03961d05b1ffd87af6a904318b3b9e7f7d5391a9609be48f8a42516e52c56907",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/a0ad67d1beb761f2cb9f8b60e5bcf07a/250x250-000000-80-0-0.jpg",
+    "deezerId": 4603408
+  },
+  {
+    "id": "s017",
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/3/0/3832b349ee4d8b66f6022bc99dcca300.mp3?hdnea=exp=1774203584~acl=/api/1/1/3/8/3/0/3832b349ee4d8b66f6022bc99dcca300.mp3*~data=user_id=0,application_id=42~hmac=7dc44e05ae3cf2e92d45c2cbf396c587b54aaf45c5605d68082441ed6af36748",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/92a024220a9532489c75c9d994835697/250x250-000000-80-0-0.jpg",
+    "deezerId": 555639
+  },
+  {
+    "id": "s018",
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/1/0/59115eec88ea0bc7742eaba93facf49b.mp3?hdnea=exp=1774203584~acl=/api/1/1/5/9/1/0/59115eec88ea0bc7742eaba93facf49b.mp3*~data=user_id=0,application_id=42~hmac=c6f51a4b9e26c88251e3e09817d1c4a452fefe93bfb344617dcbf931672d632e",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/8bfe7b3b0985d9ff0751090fb2b6f73f/250x250-000000-80-0-0.jpg",
+    "deezerId": 518458172
+  },
+  {
+    "id": "s019",
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "year": 1989,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/3/5/0/83568d6e8eab5d7d29effe9bf3a473ce.mp3?hdnea=exp=1774203584~acl=/api/1/1/8/3/5/0/83568d6e8eab5d7d29effe9bf3a473ce.mp3*~data=user_id=0,application_id=42~hmac=b35a5241dc0f3e9de07d15c7a6c08ca00611c1e424bf3bb12c32c36a17cf3cd4",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/cb3560d83ededa230d78f7bf047c583a/250x250-000000-80-0-0.jpg",
+    "deezerId": 664507
+  },
+  {
+    "id": "s020",
+    "title": "Under the Bridge",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1992,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/d/0/35dec79ccfa79745ced0b4ffa2a0f8a2.mp3?hdnea=exp=1774203585~acl=/api/1/1/3/5/d/0/35dec79ccfa79745ced0b4ffa2a0f8a2.mp3*~data=user_id=0,application_id=42~hmac=c4704da6a1a39669f0cfe094c7f9ab44f25fb2c8ce3c9e43f5db72d85f68a7ae",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/e3f1bee87b1d5d1313641762f375a3fb/250x250-000000-80-0-0.jpg",
+    "deezerId": 785176
+  },
+  {
+    "id": "s021",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/b/0/34bad352aa1aa0f8eecbbc9c27a40eaf.mp3?hdnea=exp=1774203585~acl=/api/1/1/3/4/b/0/34bad352aa1aa0f8eecbbc9c27a40eaf.mp3*~data=user_id=0,application_id=42~hmac=04edc47bc2910a97f15cb9f72a115c7e5d9175ff865ab2fe88caa276bf813ba0",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f0282817b697279e56df13909962a54a/250x250-000000-80-0-0.jpg",
+    "deezerId": 13791930
+  },
+  {
+    "id": "s022",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "year": 1995,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/9/0/e992ed1b27bd8da3c4f6128047285674.mp3?hdnea=exp=1774203585~acl=/api/1/1/e/9/9/0/e992ed1b27bd8da3c4f6128047285674.mp3*~data=user_id=0,application_id=42~hmac=c19a4dea7668df41b113b50cdb63d5257f16397f1093968dc67f5efd335d8ad5",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/ddb062c517401ee74d8a4df6f895d75e/250x250-000000-80-0-0.jpg",
+    "deezerId": 985745702
+  },
+  {
+    "id": "s023",
+    "title": "Killing Me Softly",
+    "artist": "Fugees",
+    "year": 1996,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/d/0/ffd19aeefbbdd4d98a02ac3a20444417.mp3?hdnea=exp=1774203585~acl=/api/1/1/f/f/d/0/ffd19aeefbbdd4d98a02ac3a20444417.mp3*~data=user_id=0,application_id=42~hmac=ebca6dee2d285c355c696b6d84f1afb622acf66b8eea6445dbbfa6b6707fdb94",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/db06562348299fb5b3bd9d0d8f5233d7/250x250-000000-80-0-0.jpg",
+    "deezerId": 869548
+  },
+  {
+    "id": "s024",
+    "title": "No Diggity",
+    "artist": "Blackstreet",
+    "year": 1996,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/9/0/b69a774d519ec79f91bad7bbbf5f724e.mp3?hdnea=exp=1774203586~acl=/api/1/1/b/6/9/0/b69a774d519ec79f91bad7bbbf5f724e.mp3*~data=user_id=0,application_id=42~hmac=b1487422715d365197161f837264b34aa1d1ca229a96f2607e8c9c767e0365eb",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/3e8d6013acc1043df9d1bda10f7a2475/250x250-000000-80-0-0.jpg",
+    "deezerId": 1184170
+  },
+  {
+    "id": "s025",
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "year": 1997,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/1/0/341bbcf7cf85b72d242ecee1c7134483.mp3?hdnea=exp=1774203586~acl=/api/1/1/3/4/1/0/341bbcf7cf85b72d242ecee1c7134483.mp3*~data=user_id=0,application_id=42~hmac=436fc93e59a2ed0f57fea64371008b6f264274c3fc762cf81800fa3792edbde9",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/ecc7727e897198892b98e7c019fba45f/250x250-000000-80-0-0.jpg",
+    "deezerId": 398570642
+  },
+  {
+    "id": "s026",
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "year": 1998,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/1/0/f/0/10fd8e9cf7fc9f6f47e7ef391877ead3.mp3?hdnea=exp=1774203586~acl=/api/1/1/1/0/f/0/10fd8e9cf7fc9f6f47e7ef391877ead3.mp3*~data=user_id=0,application_id=42~hmac=7f7df1ebe7710654108d9fd88b365bfa06dda5f98a809ca97976e817700f9ef9",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f685d32254a59b6162be0d1082ff8805/250x250-000000-80-0-0.jpg",
+    "deezerId": 540175
+  },
+  {
+    "id": "s027",
+    "title": "Livin' la Vida Loca",
+    "artist": "Ricky Martin",
+    "year": 1999,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/0/0/db0b7add4623771c3a2a3a1ccaaee490.mp3?hdnea=exp=1774203586~acl=/api/1/1/d/b/0/0/db0b7add4623771c3a2a3a1ccaaee490.mp3*~data=user_id=0,application_id=42~hmac=14499b70a2557b451cabd01eb7eea70a59f6d440f97ac14d1d9450576e0fdee7",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f8e6944a9665236019347784149ce7c9/250x250-000000-80-0-0.jpg",
+    "deezerId": 13704591
+  },
+  {
+    "id": "s028",
+    "title": "Stan",
+    "artist": "Eminem",
+    "year": 2000,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/2/0/b12a45a11b396586adf4b124aaa192bc.mp3?hdnea=exp=1774203587~acl=/api/1/1/b/1/2/0/b12a45a11b396586adf4b124aaa192bc.mp3*~data=user_id=0,application_id=42~hmac=d4dafe0819b448a4d1a85a73885d74000db28b448165dffd0984bfdde3a33e12",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/e2b36a9fda865cb2e9ed1476b6291a7d/250x250-000000-80-0-0.jpg",
+    "deezerId": 1109730
+  },
+  {
+    "id": "s029",
+    "title": "In da Club",
+    "artist": "50 Cent",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/d/0/e7dc0fbb4602f09e81d8afa81f13a400.mp3?hdnea=exp=1774203587~acl=/api/1/1/e/7/d/0/e7dc0fbb4602f09e81d8afa81f13a400.mp3*~data=user_id=0,application_id=42~hmac=58b76918d3a511997c44221ce7560ec9c5595d6f0e792677dba1edc4f2127b9a",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/8f4dd4d8abf85ceda96b6b4adf217590/250x250-000000-80-0-0.jpg",
+    "deezerId": 1141668
+  },
+  {
+    "id": "s030",
+    "title": "Hey Ya!",
+    "artist": "OutKast",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/9/0/039b2c3871d36df880b29fc2b4ac2fc8.mp3?hdnea=exp=1774203587~acl=/api/1/1/0/3/9/0/039b2c3871d36df880b29fc2b4ac2fc8.mp3*~data=user_id=0,application_id=42~hmac=5702af46f3a2794f79e51e1ba354db6903c67eda4e5211dbe35b2ef623a5e373",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f81783b6cc6030733cd475f820855562/250x250-000000-80-0-0.jpg",
+    "deezerId": 628266
+  },
+  {
+    "id": "s031",
+    "title": "Crazy in Love",
+    "artist": "Beyoncé",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/a/0/9da6dc6e093d7afe9aba7868644fda2a.mp3?hdnea=exp=1774203587~acl=/api/1/1/9/d/a/0/9da6dc6e093d7afe9aba7868644fda2a.mp3*~data=user_id=0,application_id=42~hmac=ffcd724faeabec035697ba06db722247e02f6db95bd2878349ff95be76cea9dc",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/1ea1a631aa5235bbd0063643beb96fa8/250x250-000000-80-0-0.jpg",
+    "deezerId": 609244
+  },
+  {
+    "id": "s032",
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2004,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/a/4/0/4a498204c75311c854fdaac8ba07089e.mp3?hdnea=exp=1774203587~acl=/api/1/1/4/a/4/0/4a498204c75311c854fdaac8ba07089e.mp3*~data=user_id=0,application_id=42~hmac=c311f02df327d08c12fb6339f9c28116e86ce5a186ef7aa55462122e142ff8e0",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/38bb1c3329d465a3e6d4ebfe579df121/250x250-000000-80-0-0.jpg",
+    "deezerId": 2947340
+  },
+  {
+    "id": "s033",
+    "title": "Since U Been Gone",
+    "artist": "Kelly Clarkson",
+    "year": 2004,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/2/0/fe2dca0975590ae0cdb456a5abc31763.mp3?hdnea=exp=1774203588~acl=/api/1/1/f/e/2/0/fe2dca0975590ae0cdb456a5abc31763.mp3*~data=user_id=0,application_id=42~hmac=4d9dbde1884f77f3063e71eea310730aa969b2d84eb5e89520e60f0fe3446e4e",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/4e96bc714cb67543de9b30461a2de88e/250x250-000000-80-0-0.jpg",
+    "deezerId": 62118993
+  },
+  {
+    "id": "s034",
+    "title": "Gold Digger",
+    "artist": "Kanye West",
+    "year": 2005,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/5/0/525c0a401d49612f4ceb35367c52ccb3.mp3?hdnea=exp=1774203588~acl=/api/1/1/5/2/5/0/525c0a401d49612f4ceb35367c52ccb3.mp3*~data=user_id=0,application_id=42~hmac=4ea4493d3a38ef369210c11584efcb8bb595e6052349c9c459a23a5beb690fa5",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/7cbfc94084895e59b5a313a98ab1bd9a/250x250-000000-80-0-0.jpg",
+    "deezerId": 1184309
+  },
+  {
+    "id": "s035",
+    "title": "Crazy",
+    "artist": "Gnarls Barkley",
+    "year": 2006,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/9/0/d69f1e7f1194bbfdfd7327b044f07c90.mp3?hdnea=exp=1774203588~acl=/api/1/1/d/6/9/0/d69f1e7f1194bbfdfd7327b044f07c90.mp3*~data=user_id=0,application_id=42~hmac=b5c0c3ecb0772fd4bad99ed55423f81413f05932e41b4a76ce25ae272c21d7c1",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/b332eee7b7a5430b352645e9a2a6afea/250x250-000000-80-0-0.jpg",
+    "deezerId": 2794160
+  },
+  {
+    "id": "s036",
+    "title": "Umbrella",
+    "artist": "Rihanna",
+    "year": 2007,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/6/2/0/c62231a4abced1c3e3ba03b5effb9aa9.mp3?hdnea=exp=1774203588~acl=/api/1/1/c/6/2/0/c62231a4abced1c3e3ba03b5effb9aa9.mp3*~data=user_id=0,application_id=42~hmac=54c5fcf482c9caedea513ea8f362994e14e4ba7d59f258e4756861b2021a3e17",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/91276466fbc876d96be9e6926060af60/250x250-000000-80-0-0.jpg",
+    "deezerId": 925106
+  },
+  {
+    "id": "s037",
+    "title": "Poker Face",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/3/0/233fe3a96cf1654b2cf30be68cb94624.mp3?hdnea=exp=1774203589~acl=/api/1/1/2/3/3/0/233fe3a96cf1654b2cf30be68cb94624.mp3*~data=user_id=0,application_id=42~hmac=a64c6fce43d82b04a4c402f6e8ee4f307427adbe4fcd5d2436036500003ea68c",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fad7de079aa103d60ec1e2d1582c2281/250x250-000000-80-0-0.jpg",
+    "deezerId": 734508762
+  },
+  {
+    "id": "s038",
+    "title": "Single Ladies",
+    "artist": "Beyoncé",
+    "year": 2008,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/9/0/0c9cc0beae938bd297f288ff142133f4.mp3?hdnea=exp=1774203589~acl=/api/1/1/0/c/9/0/0c9cc0beae938bd297f288ff142133f4.mp3*~data=user_id=0,application_id=42~hmac=fedfa5c3ea950c7b89acca891dd09c4d43a4ad3a8392afb574642ddc0170b5a1",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/1f0450a010b5a825194d7ca00b3067ab/250x250-000000-80-0-0.jpg",
+    "deezerId": 2485118
+  },
+  {
+    "id": "s039",
+    "title": "Somebody That I Used to Know",
+    "artist": "Gotye",
+    "year": 2011,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/5/0/af52b82512d6f27a9e8d93cbdd4de452.mp3?hdnea=exp=1774203589~acl=/api/1/1/a/f/5/0/af52b82512d6f27a9e8d93cbdd4de452.mp3*~data=user_id=0,application_id=42~hmac=c654778cfb2fc1f477bea1b8d1fd3f8ccca18f5ad826d7fba539d9910aa94405",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/05323d9ae927a87b0c5cad0c2204b440/250x250-000000-80-0-0.jpg",
+    "deezerId": 1179329002
+  },
+  {
+    "id": "s040",
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "year": 2010,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d87d2d1789c1b4d96992d8079a29360b.mp3?hdnea=exp=1774203589~acl=/api/1/1/d/8/7/0/d87d2d1789c1b4d96992d8079a29360b.mp3*~data=user_id=0,application_id=42~hmac=d70269bc3a747f847298a264f1ad29911974c34de9ca0c1abe5ffb010a6841bd",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/dc1ce848d830ecc93521be5a78350364/250x250-000000-80-0-0.jpg",
+    "deezerId": 8086126
+  },
+  {
+    "id": "s041",
+    "title": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "year": 2012,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/f/0/0/df088f34bb4b6671a3c847b10ed81377.mp3?hdnea=exp=1774203590~acl=/api/1/1/d/f/0/0/df088f34bb4b6671a3c847b10ed81377.mp3*~data=user_id=0,application_id=42~hmac=8196f862f7ce944590d961905aa0b978f9691bff39a640692c7a9a73f3b41640",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/588a58d807859531614abf28f125e188/250x250-000000-80-0-0.jpg",
+    "deezerId": 60726419
+  },
+  {
+    "id": "s042",
+    "title": "Get Lucky",
+    "artist": "Daft Punk",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/f/0/1bf80a82992903ff685ba1b7275223f8.mp3?hdnea=exp=1774203590~acl=/api/1/1/1/b/f/0/1bf80a82992903ff685ba1b7275223f8.mp3*~data=user_id=0,application_id=42~hmac=c1a8539bb4059b7ac5d9312b1e81baee2ec12acfec4430f0aa9870e9eb21f901",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/bc49adb87758e0c8c4e508a9c5cce85d/250x250-000000-80-0-0.jpg",
+    "deezerId": 66609426
+  },
+  {
+    "id": "s043",
+    "title": "Royals",
+    "artist": "Lorde",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/b/0/f9bfa0a2439a79f8bdd47213739e2c33.mp3?hdnea=exp=1774203590~acl=/api/1/1/f/9/b/0/f9bfa0a2439a79f8bdd47213739e2c33.mp3*~data=user_id=0,application_id=42~hmac=080d9ce3eafcb1136ac01179fa799850610126d1965da46e85c1e221d28b11aa",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/7bb0b356418fbb275c0c3db7259128d7/250x250-000000-80-0-0.jpg",
+    "deezerId": 70403437
+  },
+  {
+    "id": "s044",
+    "title": "Happy",
+    "artist": "Pharrell Williams",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/5/0/90543b3c88fed677915d879fa4320288.mp3?hdnea=exp=1774203590~acl=/api/1/1/9/0/5/0/90543b3c88fed677915d879fa4320288.mp3*~data=user_id=0,application_id=42~hmac=69a643d632778d7fedee87a53b50cc0d9084cc4d97b224e51ba2a3d111062ee6",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/a1939a9a40dc97ed404cc4597c6a32bc/250x250-000000-80-0-0.jpg",
+    "deezerId": 701326562
+  },
+  {
+    "id": "s045",
+    "title": "Uptown Funk",
+    "artist": "Bruno Mars",
+    "year": 2014,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/a/0/b0a30d99fddf73c172e0d3f308899dd5.mp3?hdnea=exp=1774203591~acl=/api/1/1/b/0/a/0/b0a30d99fddf73c172e0d3f308899dd5.mp3*~data=user_id=0,application_id=42~hmac=404869ea059adccd13ac089288c42bd51c20011f16fc658389d1a525cce97202",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/3734366a73152d0367a83a4b09fd163f/250x250-000000-80-0-0.jpg",
+    "deezerId": 92734438
+  },
+  {
+    "id": "s046",
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "year": 2014,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/4/0/494ddfc070ac9ad7615d5a1655804710.mp3?hdnea=exp=1774203591~acl=/api/1/1/4/9/4/0/494ddfc070ac9ad7615d5a1655804710.mp3*~data=user_id=0,application_id=42~hmac=deacf4d44c5776c060dba3a8019cb48b36582d81bae47c97bd1a777e95ecbf5d",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/b1d763da698c38bde6a526c8220ca0ea/250x250-000000-80-0-0.jpg",
+    "deezerId": 79875064
+  },
+  {
+    "id": "s047",
+    "title": "Hello",
+    "artist": "Adele",
+    "year": 2015,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/a/0/f0a110b02db34fd1968d862e2aec800d.mp3?hdnea=exp=1774203591~acl=/api/1/1/f/0/a/0/f0a110b02db34fd1968d862e2aec800d.mp3*~data=user_id=0,application_id=42~hmac=572cc8ee5815e19e8c24a10b5ab1d4f294736ac77404808545d7534bfa74131d",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/eaeadce7932a97533fe495881d2fcd7a/250x250-000000-80-0-0.jpg",
+    "deezerId": 138545995
+  },
+  {
+    "id": "s048",
+    "title": "Hotline Bling",
+    "artist": "Drake",
+    "year": 2015,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/1/0/ac1d5a7a9a829c0332a6de32a0f8a90b.mp3?hdnea=exp=1774203591~acl=/api/1/1/a/c/1/0/ac1d5a7a9a829c0332a6de32a0f8a90b.mp3*~data=user_id=0,application_id=42~hmac=7d8f0aafd27871c193fccd20dec78526f67aa090af529c3f1cea032c7dd0c18d",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/56bdb7a86a27fadb96332c0c8f1b8e81/250x250-000000-80-0-0.jpg",
+    "deezerId": 124603286
+  },
+  {
+    "id": "s049",
+    "title": "Closer",
+    "artist": "The Chainsmokers",
+    "year": 2016,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/d/6/0/0d63bac2a2dcdf064fc9987bf363cb76.mp3?hdnea=exp=1774203591~acl=/api/1/1/0/d/6/0/0d63bac2a2dcdf064fc9987bf363cb76.mp3*~data=user_id=0,application_id=42~hmac=ab88b8579ab83f3a4f7f5183ee2f3bd5d2bb6eb3061aefd50e0f78b297621696",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/0a7b86a0e2f2bd3e41515adb83e3322b/250x250-000000-80-0-0.jpg",
+    "deezerId": 129310248
+  },
+  {
+    "id": "s050",
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "year": 2017,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/b/0/f1becf66c6264a6a0306fc47d47690b0.mp3?hdnea=exp=1774203592~acl=/api/1/1/f/1/b/0/f1becf66c6264a6a0306fc47d47690b0.mp3*~data=user_id=0,application_id=42~hmac=9c3860fd3e5d491c25b6f0fd4e37fc865842d71eb3e9620cc44983925d8f7b09",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/107c2b43f10c249077c1f7618563bb63/250x250-000000-80-0-0.jpg",
+    "deezerId": 139470659
+  },
+  {
+    "id": "s051",
+    "title": "Despacito",
+    "artist": "Luis Fonsi",
+    "year": 2017,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/6/8/0/c68396f0684b99d05f5b353fb3c4c888.mp3?hdnea=exp=1774203592~acl=/api/1/1/c/6/8/0/c68396f0684b99d05f5b353fb3c4c888.mp3*~data=user_id=0,application_id=42~hmac=ab05b88238f0bad8db15ebffbbcba842aa2bc2a7390e6d317143eef6c3c44eb2",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/7985ef4ccd9e66af2fc3c18d629689aa/250x250-000000-80-0-0.jpg",
+    "deezerId": 623698142
+  },
+  {
+    "id": "s052",
+    "title": "God's Plan",
+    "artist": "Drake",
+    "year": 2018,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/c/0/95c243df757f8ccd17b6692e1051e2e9.mp3?hdnea=exp=1774203592~acl=/api/1/1/9/5/c/0/95c243df757f8ccd17b6692e1051e2e9.mp3*~data=user_id=0,application_id=42~hmac=865710296811c3c1aca7c035144a201f443a0d2728b00cc5d0e1608e59a13e3a",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/b69d3bcbd130ad4cc9259de543889e30/250x250-000000-80-0-0.jpg",
+    "deezerId": 533609232
+  },
+  {
+    "id": "s053",
+    "title": "Old Town Road",
+    "artist": "Lil Nas X",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/6/0/7261a07616c22b7e94a94944fd4b24a2.mp3?hdnea=exp=1774203592~acl=/api/1/1/7/2/6/0/7261a07616c22b7e94a94944fd4b24a2.mp3*~data=user_id=0,application_id=42~hmac=86aa5db8a77b5319a9bc7c65610d3b890810f331ec451cfea28db7284327b348",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/cfdfd0c9b98034222500a69f40301f32/250x250-000000-80-0-0.jpg",
+    "deezerId": 671579702
+  },
+  {
+    "id": "s054",
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/2/0/b528e07441caa4883c8d1c4b746bf47c.mp3?hdnea=exp=1774203592~acl=/api/1/1/b/5/2/0/b528e07441caa4883c8d1c4b746bf47c.mp3*~data=user_id=0,application_id=42~hmac=01084a0db0d4370c1eadc5e701ce862a9bb09cc45db670249bf5278acbef2768",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/6630083f454d48eadb6a9b53f035d734/250x250-000000-80-0-0.jpg",
+    "deezerId": 655095912
+  },
+  {
+    "id": "s055",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2020,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/2/0/1b27825bf63c36edcdc7fac9f920214e.mp3?hdnea=exp=1774203593~acl=/api/1/1/1/b/2/0/1b27825bf63c36edcdc7fac9f920214e.mp3*~data=user_id=0,application_id=42~hmac=9cf83738b634a20a56cc5ea89cc9a51b20f829c090f4b609c77ce353c28014f2",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg",
+    "deezerId": 908604612
+  },
+  {
+    "id": "s056",
+    "title": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "year": 2020,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/5/0/f75672f3225537bd26bb33f0f8947618.mp3?hdnea=exp=1774203593~acl=/api/1/1/f/7/5/0/f75672f3225537bd26bb33f0f8947618.mp3*~data=user_id=0,application_id=42~hmac=84d2d6262507d674d2b402e8cf7d21faa168e58508424e4d4cff1680b9e958c3",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg",
+    "deezerId": 830336922
+  },
+  {
+    "id": "s057",
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "year": 2020,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/c/5/0/9c570bc806fc277bb73ba024e956d057.mp3?hdnea=exp=1774203593~acl=/api/1/1/9/c/5/0/9c570bc806fc277bb73ba024e956d057.mp3*~data=user_id=0,application_id=42~hmac=090f907fa56d67aea9d885ccd66344667d3aa8a8fd14c352d480bbcf616c2012",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg",
+    "deezerId": 1124841682
+  },
+  {
+    "id": "s058",
+    "title": "Stay",
+    "artist": "The Kid LAROI & Justin Bieber",
+    "year": 2021,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/7/0/c27d817565b9df8ab6393bb8202b58b9.mp3?hdnea=exp=1774203593~acl=/api/1/1/c/2/7/0/c27d817565b9df8ab6393bb8202b58b9.mp3*~data=user_id=0,application_id=42~hmac=77d878c018e7edd2e80c5363758c020b7349839a02680d78f4729f0321cd08f4",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/dd6fe7fa9267185c4b835bd4f155d1d2/250x250-000000-80-0-0.jpg",
+    "deezerId": 1425844092
+  },
+  {
+    "id": "s059",
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "year": 2022,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/7/0/9372c78844baf74b7a06bd467151518a.mp3?hdnea=exp=1774203593~acl=/api/1/1/9/3/7/0/9372c78844baf74b7a06bd467151518a.mp3*~data=user_id=0,application_id=42~hmac=46e7b2596a5a985d38650432a9b16f262264508f39da9203a8aca9bf7e4b1d0a",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/b0e936124f59e669ddba02ebe5893f95/250x250-000000-80-0-0.jpg",
+    "deezerId": 1703487577
+  },
+  {
+    "id": "s060",
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/1/0/4110a4ad9a0f2dfd6ff84a7bffad5a46.mp3?hdnea=exp=1774203594~acl=/api/1/1/4/1/1/0/4110a4ad9a0f2dfd6ff84a7bffad5a46.mp3*~data=user_id=0,application_id=42~hmac=f3983d3577065ef06d44e2b900e03d02fcd414b3c9746d2213a4b04132c15305",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f571cb780b339ec087201b1cea53c3d9/250x250-000000-80-0-0.jpg",
+    "deezerId": 1976903157
+  },
+  {
+    "id": "s061",
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "year": 2023,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/1/0/ca19f3388408a917038cb083873c4ae1.mp3?hdnea=exp=1774203594~acl=/api/1/1/c/a/1/0/ca19f3388408a917038cb083873c4ae1.mp3*~data=user_id=0,application_id=42~hmac=38930516f3b1328219ea45f8857507b333832713fe49c107bcb75a0da87390de",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/98610629a40996b61b3d24bd5ab8c2e1/250x250-000000-80-0-0.jpg",
+    "deezerId": 2105158337
+  },
+  {
+    "id": "s062",
+    "title": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/d/2/0/cd2322270b4d6a7f34448c642123b257.mp3?hdnea=exp=1774203594~acl=/api/1/1/c/d/2/0/cd2322270b4d6a7f34448c642123b257.mp3*~data=user_id=0,application_id=42~hmac=d44708dd1c55d1079997ae633869e142cdf9dd97bc8346d0a747c28c0e5a663b",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/6111c5ab9729c8eac47883e4e50e9cf8/250x250-000000-80-0-0.jpg",
+    "deezerId": 737967292
+  },
+  {
+    "id": "s063",
+    "title": "Paint It Black",
+    "artist": "The Rolling Stones",
+    "year": 1966,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/5/c/0/35c47b94e363b9313fac207254f417a6.mp3?hdnea=exp=1774203594~acl=/api/1/1/3/5/c/0/35c47b94e363b9313fac207254f417a6.mp3*~data=user_id=0,application_id=42~hmac=f746d619031be98e9518bbdca1c366327ee1155fc622e565c2522bddbe0d5859",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/3aed94e2a791cd0f1a3ec5c306f65e9e/250x250-000000-80-0-0.jpg",
+    "deezerId": 7818900
+  },
+  {
+    "id": "s064",
+    "title": "Superstition",
+    "artist": "Stevie Wonder",
+    "year": 1972,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/7/0/2777f372b6b097206c7a50a5ef794c7a.mp3?hdnea=exp=1774203595~acl=/api/1/1/2/7/7/0/2777f372b6b097206c7a50a5ef794c7a.mp3*~data=user_id=0,application_id=42~hmac=67165c3ca0fc08f443a3f845ea315c7681f2d7c1b75022da201372ab60998608",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/dc11aaf0240dbaf1548639e1c5df8db8/250x250-000000-80-0-0.jpg",
+    "deezerId": 596034702
+  },
+  {
+    "id": "s065",
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "year": 1976,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/1/6/0/916f7137187790e999bc66e6460c07b2.mp3?hdnea=exp=1774203595~acl=/api/1/1/9/1/6/0/916f7137187790e999bc66e6460c07b2.mp3*~data=user_id=0,application_id=42~hmac=79c9dc40e5d541ea53afefcb7a6de3ddf249771431534df77c36e38d73dd6b29",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/b8b70d474b7a8f27799e0d665e9b737e/250x250-000000-80-0-0.jpg",
+    "deezerId": 884025
+  },
+  {
+    "id": "s066",
+    "title": "September",
+    "artist": "Earth, Wind & Fire",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/1/0/ff191ffcc88051796dd077e402aa14c5.mp3?hdnea=exp=1774203595~acl=/api/1/1/f/f/1/0/ff191ffcc88051796dd077e402aa14c5.mp3*~data=user_id=0,application_id=42~hmac=4739b75dce9a605b36a7c6e676f54601717d0b08fee1d3836b12f22a97bbd36e",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/18f41ecd3781fb96bffa2b0b49955db5/250x250-000000-80-0-0.jpg",
+    "deezerId": 487484142
+  },
+  {
+    "id": "s067",
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "year": 1983,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/a/e/0/7aea8a4ca1d9900292e76da306cf1692.mp3?hdnea=exp=1774203595~acl=/api/1/1/7/a/e/0/7aea8a4ca1d9900292e76da306cf1692.mp3*~data=user_id=0,application_id=42~hmac=022f4d48834d2b81d15f67902ce61d217b22bc4cf9a57676969c61b31939ce21",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/90c08c26f9dd3f820e7f732a21edb65d/250x250-000000-80-0-0.jpg",
+    "deezerId": 706051
+  },
+  {
+    "id": "s068",
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "year": 1985,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/9/0/b19c969e9d7193a3fa7e5880fed2aefb.mp3?hdnea=exp=1774203596~acl=/api/1/1/b/1/9/0/b19c969e9d7193a3fa7e5880fed2aefb.mp3*~data=user_id=0,application_id=42~hmac=8c93a87760b6729356e73f71f48ade9fbc477826c64a07c5d1f7a40875d8c2f4",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/e0ce8977ab98d73bcea00fc838ece034/250x250-000000-80-0-0.jpg",
+    "deezerId": 664107
+  },
+  {
+    "id": "s069",
+    "title": "Livin' on a Prayer",
+    "artist": "Bon Jovi",
+    "year": 1986,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/1/0/7c1d95d2fe6ad479f66d912db049df50.mp3?hdnea=exp=1774203596~acl=/api/1/1/7/c/1/0/7c1d95d2fe6ad479f66d912db049df50.mp3*~data=user_id=0,application_id=42~hmac=fda0a2c55c384254df87757adec5392fe898e5a5c934ce503bb034e01c7b5e86",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/1f0365311a9d03c267f175e0ef79f40c/250x250-000000-80-0-0.jpg",
+    "deezerId": 538660022
+  },
+  {
+    "id": "s070",
+    "title": "With or Without You",
+    "artist": "U2",
+    "year": 1987,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/8/e/0/08ee0283f63e8754d8be41fda4274717.mp3?hdnea=exp=1774203596~acl=/api/1/1/0/8/e/0/08ee0283f63e8754d8be41fda4274717.mp3*~data=user_id=0,application_id=42~hmac=a54d9e23104cdb5ca24349ad431d8ff2aca114bd077f5b0873280c7c95a6562f",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/b255afa51b3c1af7872acb56da319c2d/250x250-000000-80-0-0.jpg",
+    "deezerId": 912486
+  },
+  {
+    "id": "s071",
+    "title": "Nothing Compares 2 U",
+    "artist": "Sinéad O'Connor",
+    "year": 1990,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/a/0/cba38c67b7aa5bb88d87df8d28af07d0.mp3?hdnea=exp=1774203596~acl=/api/1/1/c/b/a/0/cba38c67b7aa5bb88d87df8d28af07d0.mp3*~data=user_id=0,application_id=42~hmac=38c9204bbcd93097834dce92c525f1fb86fbf79a319ba39364e7f47f06310ab9",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/a68ab9a9117ac3cdb5fa7bff758f935f/250x250-000000-80-0-0.jpg",
+    "deezerId": 1787569267
+  },
+  {
+    "id": "s072",
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": 1993,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/9/c/0/b9c4cde36fbe176cc3e84dc08fc0611b.mp3?hdnea=exp=1774203596~acl=/api/1/1/b/9/c/0/b9c4cde36fbe176cc3e84dc08fc0611b.mp3*~data=user_id=0,application_id=42~hmac=44ed0ad4002f53c26b925478b88f40c34eefcee8f6162d82cdad1d98a5006a6b",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/1dd56fd8824492e1a5106c99a00a85ec/250x250-000000-80-0-0.jpg",
+    "deezerId": 138547415
+  },
+  {
+    "id": "s073",
+    "title": "Waterfalls",
+    "artist": "TLC",
+    "year": 1995,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/0/0/2a0ffb8a29cf34fd5e1c235648921ce1.mp3?hdnea=exp=1774203597~acl=/api/1/1/2/a/0/0/2a0ffb8a29cf34fd5e1c235648921ce1.mp3*~data=user_id=0,application_id=42~hmac=da74da20cb3b715887627ad3a1c8884b9a8434c33790399ba2f7ffec76be09f9",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/3134fd3fba883b4e6c8df8dc1487dbef/250x250-000000-80-0-0.jpg",
+    "deezerId": 1043894
+  },
+  {
+    "id": "s074",
+    "title": "Wannabe",
+    "artist": "Spice Girls",
+    "year": 1996,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/c/0/b8cac96000eea3ee3fb1c6c363c2d95e.mp3?hdnea=exp=1774203597~acl=/api/1/1/b/8/c/0/b8cac96000eea3ee3fb1c6c363c2d95e.mp3*~data=user_id=0,application_id=42~hmac=0206c9832467b3ae796b2594e3bf552a1dd1037bab25e7b53279619ea3f60df4",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/18c4f2d9608910a2b8eb1835052e895b/250x250-000000-80-0-0.jpg",
+    "deezerId": 3133738
+  },
+  {
+    "id": "s075",
+    "title": "Iris",
+    "artist": "Goo Goo Dolls",
+    "year": 1998,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/8/d/0/08df029ee8f83c255da889342a4cc863.mp3?hdnea=exp=1774203597~acl=/api/1/1/0/8/d/0/08df029ee8f83c255da889342a4cc863.mp3*~data=user_id=0,application_id=42~hmac=89f548547e9466093b8a4d6e34210f154a7cd32ab87974866a6819227c86a7ac",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fb8ad0c24c1a3fef50c7ec20f157923b/250x250-000000-80-0-0.jpg",
+    "deezerId": 4290138
+  },
+  {
+    "id": "s076",
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/a/0/27a14827ff1e82c5e40e8b6a934a8637.mp3?hdnea=exp=1774203597~acl=/api/1/1/2/7/a/0/27a14827ff1e82c5e40e8b6a934a8637.mp3*~data=user_id=0,application_id=42~hmac=9799cf7cd760171bac0cb4f9e275e4c839b0a38f4f4f1e02bb87b65302b13230",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/e2b36a9fda865cb2e9ed1476b6291a7d/250x250-000000-80-0-0.jpg",
+    "deezerId": 1109731
+  },
+  {
+    "id": "s077",
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/e/0/7de8805c1993e802810d7ca37a615f81.mp3?hdnea=exp=1774203597~acl=/api/1/1/7/d/e/0/7de8805c1993e802810d7ca37a615f81.mp3*~data=user_id=0,application_id=42~hmac=937d311a96bfd0652a3666bc69cba37ea77ac620ff2a376ecaf0326dad99f6ab",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/ed0929a4c44d77c4dc524a10748fc2f6/250x250-000000-80-0-0.jpg",
+    "deezerId": 1153182282
+  },
+  {
+    "id": "s078",
+    "title": "Toxic",
+    "artist": "Britney Spears",
+    "year": 2004,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/e/0/38e6ba0b94def898f95e4cdf7ff4c497.mp3?hdnea=exp=1774203598~acl=/api/1/1/3/8/e/0/38e6ba0b94def898f95e4cdf7ff4c497.mp3*~data=user_id=0,application_id=42~hmac=f4d0d45c2e45942b265f1224130a7320baded3b62e725876dbed62c11c251870",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/34265ac018fe0d973eac131fe04038a2/250x250-000000-80-0-0.jpg",
+    "deezerId": 582252
+  },
+  {
+    "id": "s079",
+    "title": "Hips Don't Lie",
+    "artist": "Shakira",
+    "year": 2006,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/b/0/b0bcacf5d52d910e8b60abe75db42222.mp3?hdnea=exp=1774203598~acl=/api/1/1/b/0/b/0/b0bcacf5d52d910e8b60abe75db42222.mp3*~data=user_id=0,application_id=42~hmac=f34944439884fb117327b77d95c665bd58dde68499dfb503ecab77ceb7347bbc",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/0e4b8c4332328521ec4ed16b4b9e26b1/250x250-000000-80-0-0.jpg",
+    "deezerId": 88897841
+  },
+  {
+    "id": "s080",
+    "title": "Viva la Vida",
+    "artist": "Coldplay",
+    "year": 2008,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/5/0/e25fade11767fd539ad651da72103237.mp3?hdnea=exp=1774203598~acl=/api/1/1/e/2/5/0/e25fade11767fd539ad651da72103237.mp3*~data=user_id=0,application_id=42~hmac=4684c30df5a13766d53d9a5448045d50f88e204db027fd846d07b068adbed9ee",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/eede3cd0dc3a5a87c7a5b1085b022e2d/250x250-000000-80-0-0.jpg",
+    "deezerId": 3157972
+  },
+  {
+    "id": "s081",
+    "title": "Tik Tok",
+    "artist": "Kesha",
+    "year": 2009,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/4/0/4f4ed0117a507eb65343a3202878260a.mp3?hdnea=exp=1774203598~acl=/api/1/1/4/f/4/0/4f4ed0117a507eb65343a3202878260a.mp3*~data=user_id=0,application_id=42~hmac=d3d8f843ae27eb678e287fe57c254bb6c7ae2aa978df9f66cbdc003233f8c1c1",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/6b4c12d69aafd210b11bd74836ce3311/250x250-000000-80-0-0.jpg",
+    "deezerId": 4764905
+  },
+  {
+    "id": "s082",
+    "title": "Gangnam Style",
+    "artist": "PSY",
+    "year": 2012,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/a/0/0/3a0567e318e4ca3102cc6ab1579ec61b.mp3?hdnea=exp=1774203599~acl=/api/1/1/3/a/0/0/3a0567e318e4ca3102cc6ab1579ec61b.mp3*~data=user_id=0,application_id=42~hmac=46ef1bb79aec204800028c33afa3f75920f9a913183c5cbfa20e126b9b42e896",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/45e4493fcc15997085491debddcf049e/250x250-000000-80-0-0.jpg",
+    "deezerId": 60726278
+  },
+  {
+    "id": "s083",
+    "title": "Shake It Off",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/9/0/2d9810a9179e50e255861f3980d310df.mp3?hdnea=exp=1774203599~acl=/api/1/1/2/d/9/0/2d9810a9179e50e255861f3980d310df.mp3*~data=user_id=0,application_id=42~hmac=5bd6c2b58d546a89fc41022678f6e8dee7c7d443aaf0d56d600475cb08ac62f8",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/68b4e986958b17f05b062ffa8d7ae114/250x250-000000-80-0-0.jpg",
+    "deezerId": 89077555
+  },
+  {
+    "id": "s084",
+    "title": "Sorry",
+    "artist": "Justin Bieber",
+    "year": 2015,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/e/0/78e56ce103487a2c3395c0e6dff48a2f.mp3?hdnea=exp=1774203599~acl=/api/1/1/7/8/e/0/78e56ce103487a2c3395c0e6dff48a2f.mp3*~data=user_id=0,application_id=42~hmac=9febc8788aabefbf98c15f742c7d256eb8ca9aa80a774ddbeef93505f8718800",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/340283aafac320864b207c420124ee46/250x250-000000-80-0-0.jpg",
+    "deezerId": 112662366
+  },
+  {
+    "id": "s085",
+    "title": "Havana",
+    "artist": "Camila Cabello",
+    "year": 2017,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/9/0/b19a0e36acb2526676f68f031023d66f.mp3?hdnea=exp=1774203599~acl=/api/1/1/b/1/9/0/b19a0e36acb2526676f68f031023d66f.mp3*~data=user_id=0,application_id=42~hmac=f8739c9d9d7ea87d9d49fb226855242aa0cf1804a3b4fbe53c81a5703158f918",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/824145a71e397185d8a1abe57842430c/250x250-000000-80-0-0.jpg",
+    "deezerId": 447098092
+  },
+  {
+    "id": "s086",
+    "title": "Shallow",
+    "artist": "Lady Gaga & Bradley Cooper",
+    "year": 2018,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/5/0/f558dffeea37cdba427bb81448ae97de.mp3?hdnea=exp=1774203600~acl=/api/1/1/f/5/5/0/f558dffeea37cdba427bb81448ae97de.mp3*~data=user_id=0,application_id=42~hmac=7d795939db9cc699a127cb40d7da5f9bcd0b36b2b235caf266eb0f35d2a75f7b",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/88a8288e14f61ffa39c14ac2ef9210d8/250x250-000000-80-0-0.jpg",
+    "deezerId": 561856742
+  },
+  {
+    "id": "s087",
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/c/0/adc712094a21dfa97e763b4db0d43402.mp3?hdnea=exp=1774203600~acl=/api/1/1/a/d/c/0/adc712094a21dfa97e763b4db0d43402.mp3*~data=user_id=0,application_id=42~hmac=f5ff66045c1dff02ba8c25ce5ffd462b1bd1c40a9dd12495ad62599cb4a324b7",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg",
+    "deezerId": 1124841652
+  },
+  {
+    "id": "s088",
+    "title": "drivers license",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/5/0/4d54d919da63ae5ed6f2de3e05433317.mp3?hdnea=exp=1774203600~acl=/api/1/1/4/d/5/0/4d54d919da63ae5ed6f2de3e05433317.mp3*~data=user_id=0,application_id=42~hmac=a91a9926690547d39f0593633961674fc5a30314aeea34528f6de770adaa0e3b",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/e68da86fd7976135c2d2d1715afaef7c/250x250-000000-80-0-0.jpg",
+    "deezerId": 1378342592
+  },
+  {
+    "id": "s089",
+    "title": "Heat Waves",
+    "artist": "Glass Animals",
+    "year": 2020,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/a/0/eba1770b8b441d8472926ca22922af98.mp3?hdnea=exp=1774203600~acl=/api/1/1/e/b/a/0/eba1770b8b441d8472926ca22922af98.mp3*~data=user_id=0,application_id=42~hmac=21577a99197a63581889c105c9e2df98bc71de90511e4fe2a421c2125a62f054",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/04ea51c6eb90a6208f2e47da861cf1a5/250x250-000000-80-0-0.jpg",
+    "deezerId": 1040154662
+  },
+  {
+    "id": "s090",
+    "title": "Bohemian Like You",
+    "artist": "The Dandy Warhols",
+    "year": 2000,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/c/9/0/3c95716d1cc1f139e8aad6211114a4a6.mp3?hdnea=exp=1774203600~acl=/api/1/1/3/c/9/0/3c95716d1cc1f139e8aad6211114a4a6.mp3*~data=user_id=0,application_id=42~hmac=05e9c875dc001fe6d01e15861f1e87b1f8dc1dd5c20d205cd72f0590066e2812",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/f2f1f2caf987151c528b96bd5e7359d4/250x250-000000-80-0-0.jpg",
+    "deezerId": 2126030457
+  },
+  {
+    "id": "s091",
+    "title": "Survivor",
+    "artist": "Destiny's Child",
+    "year": 2001,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/1/0/b11572bed3fd733298c40a2cf631ffce.mp3?hdnea=exp=1774203601~acl=/api/1/1/b/1/1/0/b11572bed3fd733298c40a2cf631ffce.mp3*~data=user_id=0,application_id=42~hmac=ba5ae1461ce21c214ac6e168075629b968217e33bad868a601bb0d1c981cc4a9",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/6569bbc2ccd786c051555084ebc9b355/250x250-000000-80-0-0.jpg",
+    "deezerId": 5817089
+  },
+  {
+    "id": "s092",
+    "title": "Clocks",
+    "artist": "Coldplay",
+    "year": 2002,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/b/0/aab462f45130dd661898605b8573b1e2.mp3?hdnea=exp=1774203601~acl=/api/1/1/a/a/b/0/aab462f45130dd661898605b8573b1e2.mp3*~data=user_id=0,application_id=42~hmac=68c091f3cf755fc1e17e910a1b0c319558e765ecb82a99d3c8862d4b126b0d49",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/5ba1787e1ec36dbbca38ff01fea8fb21/250x250-000000-80-0-0.jpg",
+    "deezerId": 3098841
+  },
+  {
+    "id": "s093",
+    "title": "Paper Planes",
+    "artist": "M.I.A.",
+    "year": 2007,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/9/0/5f974a4755080001e769dfa67afce73c.mp3?hdnea=exp=1774203601~acl=/api/1/1/5/f/9/0/5f974a4755080001e769dfa67afce73c.mp3*~data=user_id=0,application_id=42~hmac=e9abd339c2881690570bff597d2d4d10fe33b29e5267e568c38805f9dd13eb2b",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/1306c2e40cbdfa2ef7643880d22caff9/250x250-000000-80-0-0.jpg",
+    "deezerId": 943376
+  },
+  {
+    "id": "s094",
+    "title": "Pumped Up Kicks",
+    "artist": "Foster the People",
+    "year": 2011,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/8/0/eb86469502f0571746a40d280c53bc5a.mp3?hdnea=exp=1774203601~acl=/api/1/1/e/b/8/0/eb86469502f0571746a40d280c53bc5a.mp3*~data=user_id=0,application_id=42~hmac=030f726d93c7c29e04d595887fde725c01f83b58b5fae4ff199f9f5d09c755ef",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fc73624907c40d356ca26152754cef43/250x250-000000-80-0-0.jpg",
+    "deezerId": 15546830
+  },
+  {
+    "id": "s095",
+    "title": "We Found Love",
+    "artist": "Rihanna",
+    "year": 2011,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/7/0/f572de0695aa9bcbfd2f04b771cdcf9c.mp3?hdnea=exp=1774203602~acl=/api/1/1/f/5/7/0/f572de0695aa9bcbfd2f04b771cdcf9c.mp3*~data=user_id=0,application_id=42~hmac=04da1bd1888778bc3735f076955471cf166593beb1e803a40ef70aeab0dec46e",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/5199f89d5113a83b5086463d5d0c9415/250x250-000000-80-0-0.jpg",
+    "deezerId": 14525574
+  },
+  {
+    "id": "s096",
+    "title": "Locked Out of Heaven",
+    "artist": "Bruno Mars",
+    "year": 2012,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/5/0/4152102c32bb9cb7a22a1815a5f3fe99.mp3?hdnea=exp=1774203602~acl=/api/1/1/4/1/5/0/4152102c32bb9cb7a22a1815a5f3fe99.mp3*~data=user_id=0,application_id=42~hmac=fa5683999e1b175c17c070e08a8f87505e86fe1483c705d81e66b3d0078dd3e3",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/2ae8e9f1714cc6cc9393f7873008f45c/250x250-000000-80-0-0.jpg",
+    "deezerId": 62724015
+  },
+  {
+    "id": "s097",
+    "title": "Counting Stars",
+    "artist": "OneRepublic",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/a/0/23a858028e22b9f41c1dffb932fdba03.mp3?hdnea=exp=1774203602~acl=/api/1/1/2/3/a/0/23a858028e22b9f41c1dffb932fdba03.mp3*~data=user_id=0,application_id=42~hmac=166a431bc2358600c633b4faf56b73e8fe2a2670ac276224cc4f338bf8db00c4",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/63bb716faf92942d967f5c053fc8720c/250x250-000000-80-0-0.jpg",
+    "deezerId": 78527795
+  },
+  {
+    "id": "s098",
+    "title": "Lean On",
+    "artist": "Major Lazer & DJ Snake",
+    "year": 2015,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/3/0/543e2ee2447d48ed00e96e510a4a9202.mp3?hdnea=exp=1774203602~acl=/api/1/1/5/4/3/0/543e2ee2447d48ed00e96e510a4a9202.mp3*~data=user_id=0,application_id=42~hmac=2916a3f6fa0ff7b9d66514eb1194a5c177336bcbd5e58864dcb5fe397f81a8c3",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/fde2708e9cdbcdb9b6286c4852db3e74/250x250-000000-80-0-0.jpg",
+    "deezerId": 113876568
+  },
+  {
+    "id": "s099",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "year": 1975,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/9/0/e395ad329758f01e5787f03e5286636f.mp3?hdnea=exp=1774203603~acl=/api/1/1/e/3/9/0/e395ad329758f01e5787f03e5286636f.mp3*~data=user_id=0,application_id=42~hmac=ca415b6ae29dd9e6d5f07c24c56dec1560e513eedec5773842048f19e9bef13d",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/6706f1154083f461a348508c28030a30/250x250-000000-80-0-0.jpg",
+    "deezerId": 9997018
+  },
+  {
+    "id": "s100",
+    "title": "Africa",
+    "artist": "Toto",
+    "year": 1982,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/6/0/d46762f2025f13175f2fd2c062b46182.mp3?hdnea=exp=1774203603~acl=/api/1/1/d/4/6/0/d46762f2025f13175f2fd2c062b46182.mp3*~data=user_id=0,application_id=42~hmac=ab29d223cb9dc7c9491f74cd96d57c7727d4dc1829a08577f12ad5800df7ce78",
+    "albumArtUrl": "https://cdn-images.dzcdn.net/images/cover/153332e88a14255a8c3d5959a5a21882/250x250-000000-80-0-0.jpg",
+    "deezerId": 1079668
+  }
 ]

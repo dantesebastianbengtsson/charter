@@ -6,6 +6,8 @@ export function useAudio() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const previewCache = useRef<Map<number, string>>(new Map());
 
   useEffect(() => {
     const audio = new Audio();
@@ -22,6 +24,7 @@ export function useAudio() {
     };
     const onError = () => {
       setIsPlaying(false);
+      setIsLoading(false);
     };
 
     audio.addEventListener("timeupdate", onTimeUpdate);
@@ -36,30 +39,56 @@ export function useAudio() {
     };
   }, []);
 
-  const play = useCallback((url: string) => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    if (audio.src !== url) {
-      audio.src = url;
+  const fetchPreviewUrl = useCallback(async (deezerId: number): Promise<string> => {
+    const cached = previewCache.current.get(deezerId);
+    if (cached) return cached;
+
+    try {
+      const res = await fetch(`/api/preview?id=${deezerId}`);
+      if (!res.ok) return "";
+      const data = await res.json();
+      if (data.previewUrl) {
+        previewCache.current.set(deezerId, data.previewUrl);
+      }
+      return data.previewUrl || "";
+    } catch {
+      return "";
     }
+  }, []);
+
+  const playUrl = useCallback((url: string) => {
+    const audio = audioRef.current;
+    if (!audio || !url) return;
+    audio.src = url;
     audio.play().catch(() => setIsPlaying(false));
     setIsPlaying(true);
+    setIsLoading(false);
   }, []);
+
+  const playDeezer = useCallback(async (deezerId: number) => {
+    setIsLoading(true);
+    const url = await fetchPreviewUrl(deezerId);
+    if (url) {
+      playUrl(url);
+    } else {
+      setIsLoading(false);
+    }
+  }, [fetchPreviewUrl, playUrl]);
 
   const pause = useCallback(() => {
     audioRef.current?.pause();
     setIsPlaying(false);
   }, []);
 
-  const toggle = useCallback(
-    (url: string) => {
+  const toggleDeezer = useCallback(
+    (deezerId: number) => {
       if (isPlaying) {
         pause();
       } else {
-        play(url);
+        playDeezer(deezerId);
       }
     },
-    [isPlaying, play, pause]
+    [isPlaying, pause, playDeezer]
   );
 
   const stop = useCallback(() => {
@@ -71,5 +100,5 @@ export function useAudio() {
     setProgress(0);
   }, []);
 
-  return { isPlaying, progress, play, pause, toggle, stop };
+  return { isPlaying, isLoading, progress, playDeezer, pause, toggleDeezer, stop };
 }
